@@ -1,0 +1,5 @@
+&BANDS
+    outdir='./output/',
+    prefix='fe',
+    filband='fe_bands_soc.dat',
+/

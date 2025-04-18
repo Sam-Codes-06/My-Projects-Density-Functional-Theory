@@ -1,0 +1,5 @@
+&PROJWFC
+  prefix= 'al',
+  outdir= './output/',
+  filpdos= 'al_pdos.dat'
+/

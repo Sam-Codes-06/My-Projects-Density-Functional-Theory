@@ -1,0 +1,36 @@
+ &CONTROL
+   calculation     =  'nscf'
+   outdir          =  './output/'
+   prefix          =  'fe'
+   pseudo_dir      =  '../../SOURCE/q-e-qe-7.4/pseudo/'
+   verbosity       =  'high'
+ /
+
+ &SYSTEM
+   celldm(1)       =  5.42
+   ecutrho         =  400
+   ecutwfc         =  50
+   ibrav           =  3
+   nat             =  1
+   nspin           =  2
+   ntyp            =  1
+   occupations     =  'tetrahedra'
+   smearing        =  'mv'
+   starting_magnetization(1) =  0.6
+ /
+
+ &ELECTRONS
+ /
+
+ATOMIC_SPECIES 
+  Fe    1.0   Fe.pbe-nd-rrkjus.UPF 
+
+
+ATOMIC_POSITIONS crystal
+  Fe       0.000000000000   0.000000000000   0.000000000000
+
+K_POINTS automatic
+  12   12   12   1   1   1 
+
+
+

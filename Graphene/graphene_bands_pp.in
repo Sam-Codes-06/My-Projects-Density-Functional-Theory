@@ -1,0 +1,6 @@
+&BANDS
+  prefix  = 'graphene'
+  outdir  = './output/'
+  filband = 'graphene_bands.dat'
+  lsym = .true.,
+/

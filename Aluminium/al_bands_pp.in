@@ -1,0 +1,5 @@
+&BANDS
+  prefix = 'al'
+  outdir = './output/'
+  filband = 'al_bands.dat'
+/

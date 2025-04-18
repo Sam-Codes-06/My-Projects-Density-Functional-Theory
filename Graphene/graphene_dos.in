@@ -1,0 +1,6 @@
+&DOS
+  prefix='graphene',
+  outdir='./output/',
+  fildos='graphene_dos.dat',
+/
+

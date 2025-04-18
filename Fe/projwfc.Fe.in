@@ -1,0 +1,10 @@
+ &PROJWFC
+   DeltaE          =  0.1
+   Emax            =  20.0
+   Emin            =  5.0
+   filpdos         =  'Fe.pdos.dat'
+   outdir          =  './output/'
+   prefix          =  'fe'
+ /
+
+
